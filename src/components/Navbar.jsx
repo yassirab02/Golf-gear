@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-gray-200/55 w-full border-b md:border-0 shadow-md">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <a href="#" className="flex items-center text-black font-bold text-2xl font-[Poppins]">
+          <a href="/home" className="flex items-center text-black font-bold text-2xl font-[Poppins]">
             <span>G</span>
             <RiGolfBallLine className='text-green-800 ml-0 -mr-2' />
             <span className="ml-2">lf Gear</span>
