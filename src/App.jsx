@@ -1,17 +1,15 @@
-import { useState } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Products from './components/Products';
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './main';
+
 
 function App() {
-
+  
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Products/>
+      <RouterProvider router={router}></RouterProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

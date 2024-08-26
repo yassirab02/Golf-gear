@@ -6,10 +6,10 @@ const Navbar = () => {
 
   // Replace with actual paths or use onClick handlers
   const navigation = [
-    { title: "Home", path: "#" },
-    { title: "Products", path: "#" },
-    { title: "Customers", path: "#" },
-    { title: "About", path: "#" },
+    { title: "Home", path: "/home" },
+    { title: "Products", path: "/products" },
+    { title: "Customers", path: "/customers" },
+    { title: "About", path: "/about" },
   ];
 
   return (
@@ -72,10 +72,20 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          {/* Contact button for small screens */}
+          <div className="mt-3 md:hidden">
+            <a
+              href="/contact"
+              className="block py-3 px-6 text-center text-white bg-green-600 hover:bg-green-700 rounded-md shadow"
+            >
+              Contact
+            </a>
+          </div>
         </div>
+        {/* Contact button for large screens */}
         <div className="hidden md:inline-block">
           <a
-            href="#"
+            href="/contact"
             className="py-3 px-6 text-white bg-green-600 hover:bg-green-700 rounded-md shadow"
           >
             Contact

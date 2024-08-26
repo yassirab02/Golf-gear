@@ -10,7 +10,6 @@ import Title from './Title';
 const Products = () => {
   return (
     <>
-    <Title title='Our Products' />
       {/* Product List Section: Categories Grid */}
       <div className="bg-white text-gray-800">
         <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl">

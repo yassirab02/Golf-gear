@@ -3,12 +3,12 @@ import backgroundImage from "../assets/bg.jpg";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 const words2 = `
-Golf gear includes all the equipment and accessories needed for the game, such as clubs, balls, bags, and apparel, designed to improve performance and comfort on the course.`;
+Golf gear includes all the equipment and accessories needed for the game, such as balls, bags, and apparel, to improve performance and comfort on the course.`;
 
 const Hero = () => {
   return (
     <div
-      className="flex flex-col items-center lg:pt-20 bg-gray-600 pb-80"
+      className="flex flex-col items-center lg:pt-20 bg-gray-600 pb-96"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
