@@ -23,7 +23,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8 border border-x-0 border-gray-500">
+    <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8 border border-x-0 border-b-0 border-gray-500">
       <div className="max-w-lg sm:mx-auto sm:text-center">
         <span
           className="flex items-center justify-center text-black font-bold text-3xl font-[Poppins]"

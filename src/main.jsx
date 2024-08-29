@@ -13,6 +13,9 @@ import Layout from "./components/Layout";
 import ErrorPage from "./components/ErrorPage";
 import Home from "./pages/Home";
 import Contact from "./components/Contact";
+import Balls from "./components/Balls";
+import Sticks from "./components/Sticks";
+import Bags from "./components/Bags.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +37,18 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/balls",
+        element: <Balls />,
+      },
+      {
+        path: "/bags",
+        element: <Bags />,
+      },
+      {
+        path: "/sticks",
+        element: <Sticks />,
       },
     ],
   },

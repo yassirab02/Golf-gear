@@ -5,6 +5,7 @@ import Products from "../components/Products";
 import Footer from "../components/Footer";
 import Title from "../components/Title";
 import Customers from "../components/Customers";
+import ContactUs from "../components/ContactUs";
 
 
 
@@ -17,6 +18,8 @@ const Home = () => {
       <Products/>
       <Title title='Customers'/>
       <Customers/>
+      <Title title='Contact Us'/>
+      <ContactUs/>
       <Footer/>
     </>
   );

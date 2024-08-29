@@ -12,10 +12,10 @@ const Products = () => {
     <>
       {/* Product List Section: Categories Grid */}
       <div className="bg-white text-gray-800">
-        <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl">
+        <div className="container mx-auto px-4 py-16 lg:px-8 xl:max-w-7xl">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
             <a
-              href="#"
+              href="/balls"
               className="group relative block overflow-hidden transition ease-out active:opacity-75 sm:col-span-2 md:col-span-1"
             >
               <img
@@ -31,7 +31,7 @@ const Products = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/bags"
               className="group relative block overflow-hidden transition ease-out active:opacity-75"
             >
               <img
@@ -47,7 +47,7 @@ const Products = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/sticks"
               className="group relative block overflow-hidden transition ease-out active:opacity-75"
             >
               <img
@@ -63,7 +63,7 @@ const Products = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/hats"
               className="group relative block overflow-hidden transition ease-out active:opacity-75 sm:col-span-2 md:col-span-1"
             >
               <img
@@ -79,7 +79,7 @@ const Products = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/shirts"
               className="group relative block overflow-hidden transition ease-out active:opacity-75"
             >
               <img
@@ -95,7 +95,7 @@ const Products = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/other"
               className="group relative block overflow-hidden transition ease-out active:opacity-75"
             >
               <img

@@ -17,7 +17,7 @@ const Hero = () => {
       }}
     >
       {/* Heading */}
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+      <h1 className="text-6xl sm:text-6xl lg:text-7xl text-center tracking-wide pt-4 sm:pt-0">
         <span className="text-black font-[Poppins]">
           Welcome to <span className="text-green-900 font-[Poppins] font-bold">Golf Gear </span>
         </span>
