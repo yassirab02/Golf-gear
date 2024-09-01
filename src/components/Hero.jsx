@@ -24,7 +24,7 @@ const Hero = () => {
       </h1>
 
       {/* Text Generate Effect */}
-      <div className="mt-10 text-md text-center text-black max-w-4xl border border-green-700 rounded-lg bg-white/55 pb-2">
+      <div className="mt-10 text-md text-center font-[Poppins] text-black max-w-4xl border border-green-700 rounded-lg bg-white/55 pb-2">
         <TextGenerateEffect duration={2} filter={false} words={words2} />
       </div>
     </div>
