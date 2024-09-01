@@ -5,24 +5,23 @@ const Customers = () => {
     const testimonials = [
         {
             avatar: <RxAvatar className="w-16 h-16 text-green-500" />,
-            name: "Martin Escobar",
-            title: "Founder of Meta",
-            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+            name: "Alex Johnson",
+            title: "Amateur Golfer",
+            quote: "The quality of the golf clubs I purchased exceeded my expectations. They’ve improved my game significantly!"
         },
         {
             avatar: <RxAvatar className="w-16 h-16 text-green-500" />,
-            name: "Simon Andrew",
-            title: "Software Engineer",
-            quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+            name: "Rachel Adams",
+            title: "Amateur Golfer",
+            quote: "Excellent selection of golf gear and top-notch customer service. The staff helped me choose the perfect set."
         },
         {
             avatar: <RxAvatar className="w-16 h-16 text-green-500" />,
-            name: "Micheal Worin",
-            title: "Product Designer",
-            quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+            name: "David Lee",
+            title: "Professional Golfer",
+            quote: "I always find the latest golf equipment here. Their equipments have taken my game to the next level!"
         },
     ];
-
     return (
         <section className="relative py-14">
             <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
@@ -31,7 +30,7 @@ const Customers = () => {
                         Hear from our customers
                     </h3>
                     <p className="mt-3 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                        here are some of our customers comments about us. 
                     </p>
                 </div>
                 <div className="mt-12">

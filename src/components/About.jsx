@@ -7,24 +7,23 @@ const About = () => {
 
     const features = [
         {
-            icon:
-            <MdRoundaboutRight  className="text-3xl"/>,
-            title: "Analytics",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            icon: <MdRoundaboutRight className="text-3xl" />,
+            title: "Quality Assurance",
+            desc: "We carefully select and inspect every product, whether it's used or brand new, to ensure it meets our high standards. Our commitment to quality gives you confidence in every purchase."
         },
         {
-            icon:
-            <MdRoundaboutRight  className="text-3xl"/>,
-            title: "Analytics",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            icon: <MdRoundaboutRight className="text-3xl" />,
+            title: "Wide Range of Products",
+            desc: "Choose from a diverse selection of used and brand new golf gear from top brands. Whether you're looking for a budget-friendly option or the latest model, we have something for everyone."
         },
         {
-            icon:
-            <MdRoundaboutRight  className="text-3xl"/>,
-            title: "Datacenter security",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            icon: <MdRoundaboutRight className="text-3xl" />,
+            title: "Exceptional Services",
+            desc: "We provide expert advice, personalized recommendations, and responsive customer support to help you find the perfect gear. Your satisfaction is our top priority."
         }
-    ]
+    ];
+    
+    
 
     return (
         <section className="py-14">
@@ -38,7 +37,7 @@ const About = () => {
                             Golf Gear
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus
+                        Experience unmatched performance and reliability with our carefully curated selection of golf gear. Whether you're a seasoned pro or just starting out, our products are designed to enhance your game and bring out the best in every swing.
                         </p>
                     </div>
                     <div className="mt-12 max-w-lg lg:max-w-none">

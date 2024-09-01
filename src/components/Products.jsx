@@ -5,7 +5,6 @@ import sticks from "../assets/sticks.jpg";
 import shirts from "../assets/shirts.jpg";
 import hats from "../assets/hats.jpg";
 import other from "../assets/other.jpg";
-import Title from './Title';
 
 const Products = () => {
   return (

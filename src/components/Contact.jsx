@@ -1,7 +1,7 @@
 import React from "react";
 import { HiMail, HiPhone } from "react-icons/hi";
 import { IoShareSocial } from "react-icons/io5";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import other from "../assets/other.jpg";
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
               <p className="mt-2 text-sm text-gray-500">
                 Speak to our friendly team.
               </p>
-              <p className="mt-2 text-sm text-green-500">hello@merakiui.com</p>
+              <p className="mt-2 text-sm text-green-500">golfgear30@gmail.com</p>
             </div>
 
             <div className="p-4 rounded-lg bg-green-100 md:p-6">
@@ -52,7 +52,7 @@ const Contact = () => {
               <ul className="flex space-x-4 mt-2">
                 <li className="w-10 h-10 border border-white rounded-xl flex items-center justify-center">
                   <a href="#">
-                    <FaFacebookF className="text-blue-700 w-6 h-6" />
+                    <FaWhatsapp className="text-green-700 w-6 h-6" />
                   </a>
                 </li>
                 <li className="w-10 h-10 border border-white rounded-xl flex items-center justify-center">
