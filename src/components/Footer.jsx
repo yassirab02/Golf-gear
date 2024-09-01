@@ -44,12 +44,12 @@ const Footer = () => {
           <ul className="flex items-center space-x-4">
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a href="#">
-                <FaWhatsapp className="text-green-700 w-6 h-6" />
+                <FaWhatsapp className="text-green-700 hover:text-green-500 w-7 h-7" />
               </a>
             </li>
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a href="#">
-                <FaInstagram className="text-red-500 w-6 h-6" />
+                <FaInstagram className="text-red-700 hover:text-red-500 w-7 h-7" />
               </a>
             </li>
           </ul>

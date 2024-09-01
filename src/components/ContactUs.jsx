@@ -33,12 +33,12 @@ const ContactUs = () => {
               <ul className="flex space-x-4 mt-2">
                 <li className="w-10 h-10 border border-white rounded-xl flex items-center justify-center">
                   <a href="#">
-                    <FaWhatsapp className="text-green-700 w-8 h-8" />
+                    <FaWhatsapp className="text-green-700 hover:text-green-500 w-8 h-8" />
                   </a>
                 </li>
                 <li className="w-10 h-10 border border-white rounded-xl flex items-center justify-center">
                   <a href="#">
-                    <FaInstagram className="text-red-500 w-8 h-8" />
+                    <FaInstagram className="text-red-700 hover:text-red-500 w-8 h-8" />
                   </a>
                 </li>
               </ul>

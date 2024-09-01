@@ -4,73 +4,143 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
 import "./index.css";
-import Products from "./components/Products";
-import About from "./components/About";
-import Customers from "./components/Customers";
-import Layout from "./components/Layout";
-import ErrorPage from "./components/ErrorPage";
-import Home from "./pages/Home";
-import Contact from "./components/Contact";
-import Balls from "./components/Balls";
-import Sticks from "./components/Sticks";
-import Bags from "./components/Bags.jsx";
-import Hats from "./components/Hats.jsx";
-import Shirts from "./components/Shirts.jsx";
-import Other from "./components/Other.jsx";
+
+const Layout = lazy(() => import("./components/Layout"));
+const ErrorPage = lazy(() => import("./components/ErrorPage"));
+const Customers = lazy(() => import("./components/Customers"));
+const About = lazy(() => import("./components/About"));
+const Products = lazy(() => import("./components/Products"));
+const Contact = lazy(() => import("./components/Contact"));
+const Balls = lazy(() => import("./components/Balls"));
+const Sticks = lazy(() => import("./components/Sticks"));
+const Bags = lazy(() => import("./components/Bags"));
+const Hats = lazy(() => import("./components/Hats"));
+const Shirts = lazy(() => import("./components/Shirts"));
+const Other = lazy(() => import("./components/Other"));
+const Home = lazy(() => import("./pages/Home"));
 
 const router = createBrowserRouter([
   {
-    element: <Layout />,
-    errorElement: <ErrorPage />,
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <Layout />
+      </Suspense>
+    ),
+    errorElement: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <ErrorPage />
+      </Suspense>
+    ),
     children: [
       {
         path: "/customers",
-        element: <Customers/>,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Customers />
+          </Suspense>
+        ),
       },
       {
         path: "/about",
-        element: <About />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <About />
+          </Suspense>
+        ),
       },
       {
         path: "/products",
-        element: <Products />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Products />
+          </Suspense>
+        ),
       },
       {
         path: "/contact",
-        element: <Contact />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Contact />
+          </Suspense>
+        ),
       },
       {
         path: "/balls",
-        element: <Balls />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Balls />
+          </Suspense>
+        ),
       },
       {
         path: "/bags",
-        element: <Bags />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Bags />
+          </Suspense>
+        ),
       },
       {
         path: "/sticks",
-        element: <Sticks />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Sticks />
+          </Suspense>
+        ),
       },
       {
         path: "/hats",
-        element: <Hats />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Hats />
+          </Suspense>
+        ),
       },
       {
         path: "/shirts",
-        element: <Shirts />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Shirts />
+          </Suspense>
+        ),
       },
       {
         path: "/other",
-        element: <Other />,
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Other />
+          </Suspense>
+        ),
       },
     ],
   },
   {
+    path: "/",
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <Home />
+      </Suspense>
+    ),
+    errorElement: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <ErrorPage />
+      </Suspense>
+    ),
+  },
+  {
     path: "/home",
-    element: <Home/>,
-    errorElement: <ErrorPage />,
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <Home />
+      </Suspense>
+    ),
+    errorElement: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <ErrorPage />
+      </Suspense>
+    ),
   },
 ]);
 
