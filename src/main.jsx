@@ -24,94 +24,70 @@ const Home = lazy(() => import("./pages/Home"));
 const router = createBrowserRouter([
   {
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
         <Layout />
-      </Suspense>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
         <ErrorPage />
-      </Suspense>
     ),
     children: [
       {
         path: "/customers",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Customers />
-          </Suspense>
         ),
       },
       {
         path: "/about",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <About />
-          </Suspense>
         ),
       },
       {
         path: "/products",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Products />
-          </Suspense>
         ),
       },
       {
         path: "/contact",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Contact />
-          </Suspense>
         ),
       },
       {
         path: "/balls",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Balls />
-          </Suspense>
         ),
       },
       {
         path: "/bags",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Bags />
-          </Suspense>
         ),
       },
       {
         path: "/sticks",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Sticks />
-          </Suspense>
         ),
       },
       {
         path: "/hats",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Hats />
-          </Suspense>
         ),
       },
       {
         path: "/shirts",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Shirts />
-          </Suspense>
         ),
       },
       {
         path: "/other",
         element: (
-          <Suspense fallback={<div>Loading...</div>}>
             <Other />
-          </Suspense>
         ),
       },
     ],
@@ -119,27 +95,19 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
         <Home />
-      </Suspense>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
         <ErrorPage />
-      </Suspense>
     ),
   },
   {
     path: "/home",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
         <Home />
-      </Suspense>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
         <ErrorPage />
-      </Suspense>
     ),
   },
 ]);
